@@ -3,6 +3,7 @@
     import AppHeader from './components/header/AppHeader.vue';
     import AppDaFare from './components/main/AppDaFare.vue';
     import AppSectionBlue from './components/main/AppSectionBlue.vue';
+    import AppInfoContacts from './components/footer/AppInfoContacts.vue';
     import AppRegistrati from './components/footer/AppRegistrati.vue';
 
 
@@ -11,7 +12,8 @@
         AppHeader,
         AppDaFare,
         AppSectionBlue,
-        AppRegistrati,
+        AppInfoContacts,
+        AppRegistrati
 
         
       }
@@ -29,6 +31,7 @@
     </main>
 
     <footer>
+      <AppInfoContacts></AppInfoContacts>
       <AppRegistrati></AppRegistrati>
     </footer>
 

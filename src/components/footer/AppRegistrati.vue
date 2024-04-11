@@ -38,11 +38,13 @@
 
 </template>
 
-<style scoepd lang="scss">
+<style scoped lang="scss">
 
     section{
         background-color: #303030;
         height: 70px;
+        position: relative;
+        z-index: 2;
 
         .container{
             height: 100% !important;
@@ -64,6 +66,7 @@
 
             .ms-box-text{
             color: #0282f9;
+
             }
 
             .ms-btn{
@@ -72,6 +75,10 @@
                 color: white;
                 background-color: #303030;
                 border: 2px solid #0282f9;
+
+                    &:hover{
+                        font-size: 18px;
+                    }
             }
         }
      

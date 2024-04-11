@@ -32,7 +32,7 @@
 
 </template>
 
-<style scoepd lang="scss">
+<style scoped lang="scss">
 
     header{
         height: 120px;
@@ -50,7 +50,7 @@
                     color: #0282f9;
                 }
             }
-            
+
         }
 
     }
