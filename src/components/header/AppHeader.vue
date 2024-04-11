@@ -40,16 +40,17 @@
         
         .container{
             height: 100% !important;
-        }
 
-        li{
-            display: inline;
-            margin-left: 25px;
-            position: relative;
+            li{
+                display: inline;
+                margin-left: 25px;
+                position: relative;
 
-            &:hover{
-                color: #0282f9;
+                &:hover{
+                    color: #0282f9;
+                }
             }
+            
         }
 
     }
