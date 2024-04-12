@@ -42,8 +42,10 @@
             height: 100% !important;
 
             li{
+                list-style-type: none;
                 display: inline;
                 margin-left: 25px;
+                cursor: pointer;
                 position: relative;
 
                 &:hover{

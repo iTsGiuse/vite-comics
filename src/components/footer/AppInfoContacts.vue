@@ -88,6 +88,11 @@
                 li{
                     list-style-type: none;
                     color: grey;
+
+                    &:hover{
+                        color: white;
+                        cursor: pointer;
+                    }
                 }
 
             }

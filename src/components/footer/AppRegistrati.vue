@@ -56,6 +56,7 @@
 
                 img{
                     width: 100% !important;
+                    cursor: pointer;
 
                     &:hover{
                         background-color: white;
