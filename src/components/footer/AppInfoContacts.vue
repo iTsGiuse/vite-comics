@@ -108,7 +108,7 @@
             }
 
             .ms-spazio{
-                margin-left: 100px;
+                margin-left: 130px;
             }
            
         }
