@@ -68,7 +68,6 @@
 <style scoped lang="scss">
 
     section{
-        height: calc(100% - (120px + 70px + 150px + 150px));
         width: 100%;
         background-image: url('../../assets/img/footer-bg.jpg');
         background-repeat: no-repeat;
