@@ -14,18 +14,16 @@
                 <img class="img-fluid mt-2 mb-2" src="../../assets/img/dc-logo.png" alt="Logo">
             </div>
             <div class="me-5">
-                <ul>
-                    <li>CHARACTERS</li>
-                    <li>COMICS</li>
-                    <li>MOVIES</li>
-                    <li>TV</li>
-                    <li>GAMES</li>
-                    <li>COLLECTIBLES</li>
-                    <li>VIDEOS</li>
-                    <li>FANS</li>
-                    <li>NEWS</li>
-                    <li>SHOP</li>
-                </ul>
+                <span class="selected">CHARACTERS</span>
+                <span class="selected">COMICS</span>
+                <span class="selected">MOVIES</span>
+                <span class="selected">TV</span>
+                <span class="selected">GAMES</span>
+                <span class="selected">COLLECTIBLES</span>
+                <span class="selected">VIDEOS</span>
+                <span class="selected">FANS</span>
+                <span class="selected">NEWS</span>
+                <span class="selected">SHOP</span>
             </div>
         </div>
     </header>
@@ -41,16 +39,22 @@
         .container{
             height: 100% !important;
 
-            li{
-                list-style-type: none;
-                display: inline;
+            span{
+                padding-bottom: 43px ;
                 margin-left: 25px;
                 cursor: pointer;
                 position: relative;
+                height: 100% !important;
 
                 &:hover{
                     color: #0282f9;
                 }
+
+            }
+
+            .selected:hover{
+                border-bottom: 8px solid #0282f9;
+
             }
 
         }
