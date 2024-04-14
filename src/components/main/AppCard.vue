@@ -126,7 +126,7 @@
             border: 1px solid transparent;
 			padding-left: 40px;
             padding-right: 40px;
-
+			font-weight: 400;
     	}
     }
 

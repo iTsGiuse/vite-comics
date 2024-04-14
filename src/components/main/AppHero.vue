@@ -39,6 +39,7 @@
                     border: 1px solid transparent;
                     position: absolute;
                     top: 96%;
+                    font-weight: 600;
 
                     &:hover{
                         font-size: 18px;
