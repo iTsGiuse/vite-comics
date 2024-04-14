@@ -98,10 +98,12 @@
 
     <section>
         <div class="container">
-            <div class="row flex-wrap pt-5 pb-5">
-                <SingleCard v-for="comic in comics" :comic="comic"></SingleCard>
+            <div class="row flex-wrap pt-5 ">
+                <SingleCard v-for="comic in comics" :comic="comic" class="mt-3"></SingleCard>
             </div>
-            
+			<div class="d-flex justify-content-center">
+				<button class="ms-button mt-5 mb-5">LOAD MORE</button>
+			</div>
         </div>
     </section>
 
@@ -115,6 +117,17 @@
         h1{
             color: white;
         }
+
+		.ms-button{ 
+            cursor: pointer;
+        	padding: 5px;
+            background-color: #0282f9;
+            color: white;
+            border: 1px solid transparent;
+			padding-left: 40px;
+            padding-right: 40px;
+
+    	}
     }
 
 </style>

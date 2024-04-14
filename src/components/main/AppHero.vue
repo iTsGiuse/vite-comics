@@ -9,7 +9,7 @@
 
     <section>
         <div class="container">
-            <span class="ms-btn">CURRENT SERIES</span>
+            <span>CURRENT SERIES</span>
         </div>
     </section>
 
@@ -29,7 +29,7 @@
                 height: 100%;
                 position: relative !important;
 
-                .ms-btn{
+                span{
                     cursor: pointer;
                     padding: 10px;
                     padding-left: 40px;
