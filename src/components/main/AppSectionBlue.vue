@@ -72,11 +72,13 @@
             width: 100% !important;
 
             .ms-box-image{
-            width: 60px;
-            height: 60px;
+            width: 80px;
+            height: 80px;
 
                 img{
                     width: 100% !important;
+                    height: 100% !important;
+                    object-fit: contain;
                 }
 
             }

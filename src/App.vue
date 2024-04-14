@@ -1,7 +1,8 @@
 <script>
 
     import AppHeader from './components/header/AppHeader.vue';
-    import AppDaFare from './components/main/AppDaFare.vue';
+    import AppCard from './components/main/AppCard.vue';
+    import SingleCard from './components/main/SingleCard.vue';
     import AppSectionBlue from './components/main/AppSectionBlue.vue';
     import AppInfoContacts from './components/footer/AppInfoContacts.vue';
     import AppRegistrati from './components/footer/AppRegistrati.vue';
@@ -10,12 +11,12 @@
     export default {
       components: {
         AppHeader,
-        AppDaFare,
+        AppCard,
+        SingleCard,
         AppSectionBlue,
         AppInfoContacts,
         AppRegistrati
-
-        
+    
       }
     }
 
@@ -26,7 +27,7 @@
   <AppHeader></AppHeader>
 
     <main>
-      <AppDaFare></AppDaFare>
+      <AppCard></AppCard>
       <AppSectionBlue></AppSectionBlue>
     </main>
 
